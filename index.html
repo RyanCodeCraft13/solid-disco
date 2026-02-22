@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>RN Local Loan Services</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+    <h1>RN Local Loan Services</h1>
+    <p>Fast • Easy • Trusted Local Loans</p>
+</header>
+
+<section class="loan-calculator">
+    <h2>Loan Calculator</h2>
+    <input type="number" id="amount" placeholder="Enter Loan Amount (₱)">
+    <input type="number" id="interest" placeholder="Interest % (example 10)">
+    <button onclick="calculateLoan()">Calculate</button>
+    <h3 id="result"></h3>
+</section>
+
+<section class="application">
+    <h2>Apply for Loan</h2>
+    <form>
+        <input type="text" placeholder="Full Name" required>
+        <input type="text" placeholder="Address" required>
+        <input type="text" placeholder="Contact Number" required>
+        <input type="number" placeholder="Loan Amount" required>
+        <button type="submit">Submit Application</button>
+    </form>
+</section>
+
+<section class="gcash">
+    <h2>GCash Payment</h2>
+    <p>Scan to Pay</p>
+    <img src="https://via.placeholder.com/200x200.png?text=GCash+QR" alt="GCash QR">
+</section>
+
+<footer>
+    <p>Contact: 09XXXXXXXXX</p>
+    <p>© 2026 RN Local Loan Services</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
